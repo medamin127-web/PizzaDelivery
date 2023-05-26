@@ -1,0 +1,108 @@
+*{ 
+    margin:0;
+    padding:0;
+  
+  }
+
+
+.login input {
+    width: 22em;
+    padding: 0.9em;
+    border-radius: 3em;
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+}
+
+
+.login{
+    max-width: min-content;
+    margin: auto;
+    width: 50%;
+    float: left;
+    margin-left: 5em;
+      
+    
+}
+
+.logo{
+    float:left;
+    background-color:aliceblue;
+    border-radius: 10% 30% 50% 70%;
+    
+}
+
+
+.flex-container {
+        margin:auto;
+        
+        max-width: fit-content;
+        padding:3em;
+        overflow: auto;
+        margin:auto;
+        margin-top: 2em;
+        background-color: white;
+        max-width: 65%;
+        box-shadow: 11px 9px 6px -4px rgba(0,0,0,0.49);
+        -webkit-box-shadow: 11px 9px 6px -4px rgba(0,0,0,0.49);
+        -moz-box-shadow: 11px 9px 6px -4px rgba(0,0,0,0.49);
+        max-width: fit-content;
+}
+input {
+    font-family:roboto;
+    border: 0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+
+}
+.button1 button{
+    font-family: roboto;
+    background-color:#e90b0b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2em;
+    width: 100%;
+    
+}
+.button1 button:hover{
+    background-color: #ff7c7c;
+
+}
+.button2 button{
+    font-family: roboto;
+    background-color: white;
+    border: none;
+    color: #e90b0b;
+    padding: 15px 32px;
+    border:1px solid #e90b0b;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2em;
+    width: 100%;
+    
+}
+.button2 button:hover{
+    border:1px solid #ff9494;
+}
+
+.flex-container img{
+    float:left;
+    width: 20em;
+    max-width:100%;
+    height:auto;
+}
+
+h2{
+    font-family: 'Fjalla One', sans-serif;
+    color: red;
+
+}
